@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b0e0e6;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  line-height: 3px;
+  margin-left: 20px;
+}
+
+.grooming {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services {
+  display: flex;
+  font-family: fantasy, Harrington;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  width: 170px;
+  height: 170px;
+}
+
+.main-head {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: fantasy, papyrus;
+  font-size: 50px;
+  color: blue;
+}
+
+h2 {
+  margin-left: 15px;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.claws {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.main-claws {
+  font-size: 20px;
+  font-weight: 900px;
+  margin-bottom: 10px;
+}
+
+.coment {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: cursive, Brush Script MT;
+  margin-top: 0px;
+}
+
+.contakts {
+  list-style-type: none;
+  line-height: 50px;
+  color: #59a3cf;
+}
+
+a {
+  text-decoration: none;
+}
+
+.my-foto,
+.foto-1 {
+  float: left;
+}
+
+.foto-2 {
+  float: right;
+}
+
+.my-foto img {
+  width: 200px;
+  height: 200px;
+}
+
+.foto-2 img,
+.foto-1 img {
+  width: 400px;
+  height: 400px;
+}
+
+.main-unit {
+  background-color: #c8e4f7;
+}
+
+.about-me {
+  font-size: 14px;
+}
+
+p {
+  margin: 8px 15px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.tabs-item {
+  display: inline-block;
+  padding: 10px;
+  background: #b0e0e6;
+  order: 1;
+  margin-top: 10px;
+}
+
+.tabs-control:checked + .tabs-item {
+  background: #c8e4f7;
+}
+
+.tabs-control {
+  display: none;
+}
+
+.tabs-content {
+  display: none;
+  order: 2;
+}
+
+.tabs-control:checked + .tabs-item + .tabs-content {
+  display: block;
+}
